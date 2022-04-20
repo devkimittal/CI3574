@@ -1,5 +1,5 @@
 pipeline:
-    name: git_dev_name_change
+    name: git_dev
     identifier: git_dev
     allowStageExecutions: false
     projectIdentifier: dev_test
