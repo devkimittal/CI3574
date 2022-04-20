@@ -1,0 +1,36 @@
+pipeline:
+    name: dev_pipe
+    identifier: dev_pipe
+    allowStageExecutions: false
+    projectIdentifier: dev_test
+    orgIdentifier: default
+    tags: {}
+    properties:
+        ci:
+            codebase:
+                connectorRef: git_dev
+                build: <+input>
+    stages:
+        - stage:
+              name: build
+              identifier: build
+              type: CI
+              spec:
+                  cloneCodebase: true
+                  infrastructure:
+                      type: KubernetesDirect
+                      spec:
+                          connectorRef: CiPlay
+                          namespace: harness-delegate-dev-whitepaper
+                          automountServiceAccountToken: true
+                  execution:
+                      steps:
+                          - step:
+                                type: Run
+                                name: run
+                                identifier: run
+                                spec:
+                                    connectorRef: account.harnessImage
+                                    image: alpine
+                                    shell: Sh
+                                    command: echo "Hello Pipeline"
