@@ -1,0 +1,24 @@
+connector:
+  name: git_dev
+  identifier: git_dev
+  description:
+  orgIdentifier: default
+  projectIdentifier: dev_test
+  type: Github
+  spec:
+    url: https://github.com/devkimittal/CI3574.git
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: devkimittal
+          tokenRef: github_dev_pac
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: github_dev_pac
+    delegateSelectors:
+    - dev-whitepaper
+    executeOnDelegate: true
+    type: Repo
