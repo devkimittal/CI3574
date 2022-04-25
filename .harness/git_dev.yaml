@@ -11,7 +11,7 @@ pipeline:
               identifier: build
               type: CI
               spec:
-                  cloneCodebase: false
+                  cloneCodebase: true
                   infrastructure:
                       type: KubernetesDirect
                       spec:
@@ -29,3 +29,8 @@ pipeline:
                                     image: alpine
                                     shell: Sh
                                     command: echo "Another pipeline"
+    properties:
+        ci:
+            codebase:
+                connectorRef: git_dev
+                build: <+input>
