@@ -1,0 +1,17 @@
+connector:
+  name: kube
+  identifier: kube
+  description:
+  orgIdentifier: default
+  projectIdentifier: without_git
+  type: K8sCluster
+  spec:
+    credential:
+      type: ManualConfig
+      spec:
+        masterUrl: https://35.184.86.207
+        auth:
+          type: ServiceAccount
+          spec:
+            serviceAccountTokenRef: buildfarm_service_account
+            caCertRef: null
