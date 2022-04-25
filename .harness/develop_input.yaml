@@ -1,0 +1,14 @@
+inputSet:
+  identifier: "develop_input"
+  name: "develop_input"
+  orgIdentifier: "default"
+  projectIdentifier: "dev_test_"
+  pipeline:
+    identifier: "pipe"
+    properties:
+      ci:
+        codebase:
+          build:
+            type: "branch"
+            spec:
+              branch: "develop"
