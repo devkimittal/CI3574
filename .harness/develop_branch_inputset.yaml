@@ -1,6 +1,6 @@
 inputSet:
   identifier: "develop_branch_input"
-  name: "develop_branch_inputset"
+  name: "develop_branch_inputchange"
   orgIdentifier: "default"
   projectIdentifier: "dev_test"
   pipeline:
