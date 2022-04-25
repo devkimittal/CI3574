@@ -1,0 +1,35 @@
+pipeline:
+    name: pipw
+    identifier: pipw
+    allowStageExecutions: false
+    projectIdentifier: without_git
+    orgIdentifier: default
+    tags: {}
+    stages:
+        - stage:
+              name: build
+              identifier: build
+              type: CI
+              spec:
+                  cloneCodebase: true
+                  infrastructure:
+                      type: KubernetesDirect
+                      spec:
+                          connectorRef: kube
+                          namespace: harness-qa-delegate
+                  execution:
+                      steps:
+                          - step:
+                                type: Run
+                                name: run
+                                identifier: run
+                                spec:
+                                    connectorRef: account.harnessImage
+                                    image: alpine
+                                    shell: Sh
+                                    command: echo "Hello without git sync"
+    properties:
+        ci:
+            codebase:
+                connectorRef: git_test1
+                build: <+input>
