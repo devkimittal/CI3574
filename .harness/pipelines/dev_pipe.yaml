@@ -1,5 +1,5 @@
 pipeline:
-    name: dev_pipe
+    name: dev_pipe_chnage
     identifier: dev_pipe
     allowStageExecutions: false
     projectIdentifier: dev_test
