@@ -14,7 +14,6 @@ connector:
           type: UsernamePassword
           spec:
             username: admin
-            usernameRef: null
             passwordRef: CIPlayPassword
     delegateSelectors:
     - dev-whitepaper
