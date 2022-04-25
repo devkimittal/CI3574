@@ -1,5 +1,5 @@
 inputSet:
-  identifier: "develop_branch_inputset"
+  identifier: "develop_branch_input"
   name: "develop_branch_inputset"
   orgIdentifier: "default"
   projectIdentifier: "dev_test"
