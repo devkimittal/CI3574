@@ -25,6 +25,10 @@ pipeline:
                                     image: alpine
                                     shell: Sh
                                     command: echo "hello develop branch"
+              variables:
+                  - name: magic
+                    type: String
+                    value: <+input>
     projectIdentifier: dev_git_sync
     orgIdentifier: default
     tags: {}
