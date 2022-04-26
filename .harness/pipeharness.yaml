@@ -28,3 +28,8 @@ pipeline:
     projectIdentifier: dev_git_sync
     orgIdentifier: default
     tags: {}
+    properties:
+        ci:
+            codebase:
+                connectorRef: harnesscore
+                build: <+input>
