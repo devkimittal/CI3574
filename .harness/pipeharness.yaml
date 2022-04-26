@@ -4,7 +4,7 @@ pipeline:
     allowStageExecutions: false
     stages:
         - stage:
-              name: build
+              name: build1
               identifier: build
               type: CI
               spec:
