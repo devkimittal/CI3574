@@ -1,0 +1,30 @@
+pipeline:
+    name: pipe-harness
+    identifier: pipeharness
+    allowStageExecutions: false
+    stages:
+        - stage:
+              name: build
+              identifier: build
+              type: CI
+              spec:
+                  cloneCodebase: false
+                  infrastructure:
+                      type: KubernetesDirect
+                      spec:
+                          connectorRef: kube
+                          namespace: harness-qa-delegate
+                  execution:
+                      steps:
+                          - step:
+                                type: Run
+                                name: run
+                                identifier: run
+                                spec:
+                                    connectorRef: account.harnessImage
+                                    image: alpine
+                                    shell: Sh
+                                    command: echo "hello develop branch"
+    projectIdentifier: dev_git_sync
+    orgIdentifier: default
+    tags: {}
