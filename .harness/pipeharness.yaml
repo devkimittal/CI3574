@@ -1,5 +1,5 @@
 pipeline:
-    name: pipe-harness2
+    name: pipe-harness3
     identifier: pipeharness
     allowStageExecutions: false
     stages:
