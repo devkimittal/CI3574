@@ -18,5 +18,7 @@ connector:
       type: Token
       spec:
         tokenRef: github_pac
+    delegateSelectors:
+    - tiwhitenew
     executeOnDelegate: true
     type: Repo
