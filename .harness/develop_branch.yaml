@@ -1,0 +1,14 @@
+inputSet:
+  identifier: "develop_branch"
+  name: "develop_branch"
+  orgIdentifier: "default"
+  projectIdentifier: "dev_git_sync"
+  pipeline:
+    identifier: "pipeharness"
+    properties:
+      ci:
+        codebase:
+          build:
+            type: "branch"
+            spec:
+              branch: "develop"
