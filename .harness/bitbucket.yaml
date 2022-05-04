@@ -16,7 +16,7 @@ connector:
     apiAccess:
       type: UsernameToken
       spec:
-        username: devmittalciv16
+        username: devkimittal
         tokenRef: bitbucket
     delegateSelectors:
     - tiwhitenew
