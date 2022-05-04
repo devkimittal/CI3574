@@ -5,17 +5,19 @@ connector:
   projectIdentifier: dev_git_sync
   type: Bitbucket
   spec:
-    url: https://devmittalciv16@bitbucket.org/devmittalciv16/ci_3446.git
+    url: https://devkimittal@bitbucket.org/devkimittal/test_repo.git
     authentication:
       type: Http
       spec:
         type: UsernamePassword
         spec:
-          username: devmittalciv16
+          username: devkimittal
           passwordRef: bitbucket
     apiAccess:
       type: UsernameToken
       spec:
         username: devmittalciv16
         tokenRef: bitbucket
+    delegateSelectors:
+    - tiwhitenew
     type: Repo
