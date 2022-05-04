@@ -1,7 +1,6 @@
 connector:
   name: bitbucket
   identifier: bitbucket
-  description:
   orgIdentifier: default
   projectIdentifier: dev_git_sync
   type: Bitbucket
@@ -14,6 +13,9 @@ connector:
         spec:
           username: devmittalciv16
           passwordRef: bitbucket
-    delegateSelectors:
-    - tiwhitenew
+    apiAccess:
+      type: UsernameToken
+      spec:
+        username: devmittalciv16
+        tokenRef: bitbucket
     type: Repo
