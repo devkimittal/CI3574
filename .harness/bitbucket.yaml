@@ -1,0 +1,19 @@
+connector:
+  name: bitbucket
+  identifier: bitbucket
+  description:
+  orgIdentifier: default
+  projectIdentifier: dev_git_sync
+  type: Bitbucket
+  spec:
+    url: https://devmittalciv16@bitbucket.org/devmittalciv16/ci_3446.git
+    authentication:
+      type: Http
+      spec:
+        type: UsernamePassword
+        spec:
+          username: devmittalciv16
+          passwordRef: bitbucket
+    delegateSelectors:
+    - tiwhitenew
+    type: Repo
