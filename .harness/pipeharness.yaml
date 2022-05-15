@@ -32,5 +32,5 @@ pipeline:
     properties:
         ci:
             codebase:
-                connectorRef: github3574
+                connectorRef: harnesscore
                 build: <+input>
