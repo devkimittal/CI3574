@@ -35,4 +35,4 @@ pipeline:
                                     connectorRef: account.CItestDockerConnectorTKMqFjEcc1
                                     image: alpine
                                     shell: Sh
-                                    command: echo hello
+                                    command: echo hello main branch
