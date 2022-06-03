@@ -1,0 +1,38 @@
+pipeline:
+    name: dev_test
+    identifier: dev_test
+    projectIdentifier: RajathaTest
+    orgIdentifier: default
+    storeType: REMOTE
+    remoteType: create
+    tags: {}
+    properties:
+        ci:
+            codebase:
+                connectorRef: dev_test
+                build: <+input>
+    stages:
+        - stage:
+              name: build
+              identifier: build
+              type: CI
+              spec:
+                  cloneCodebase: true
+                  infrastructure:
+                      type: KubernetesDirect
+                      spec:
+                          connectorRef: account.CItestK8sConnector8Jk0wfloX5
+                          namespace: harness-qa-delegate
+                          automountServiceAccountToken: true
+                          nodeSelector: {}
+                  execution:
+                      steps:
+                          - step:
+                                type: Run
+                                name: run
+                                identifier: run
+                                spec:
+                                    connectorRef: account.CItestDockerConnectorTKMqFjEcc1
+                                    image: alpine
+                                    shell: Sh
+                                    command: echo "pipeline"
