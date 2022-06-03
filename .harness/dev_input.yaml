@@ -1,0 +1,14 @@
+inputSet:
+  identifier: "develop"
+  name: "develop"
+  orgIdentifier: "default"
+  projectIdentifier: "RajathaTest"
+  pipeline:
+    identifier: "test2"
+    properties:
+      ci:
+        codebase:
+          build:
+            type: "branch"
+            spec:
+              branch: "develop"
