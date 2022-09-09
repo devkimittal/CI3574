@@ -23,8 +23,8 @@ pipeline:
             steps:
               - step:
                   type: Run
-                  name: run
-                  identifier: run
+                  name: runstep
+                  identifier: runstepK
                   spec:
                     connectorRef: account.CItestDockerConnectorM75xpPYBMm
                     image: alpine
