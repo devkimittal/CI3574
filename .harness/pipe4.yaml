@@ -1,0 +1,32 @@
+pipeline:
+  name: pipe4
+  identifier: pipe4
+  projectIdentifier: new_project
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: f
+        identifier: f
+        description: ""
+        type: CI
+        spec:
+          cloneCodebase: false
+          infrastructure:
+            type: KubernetesDirect
+            spec:
+              connectorRef: kube
+              namespace: harness-qa-delegate
+              nodeSelector: {}
+              os: Linux
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: run
+                  identifier: run
+                  spec:
+                    connectorRef: account.CItestDockerConnectorM75xpPYBMm
+                    image: alpine
+                    shell: Sh
+                    command: echo run
