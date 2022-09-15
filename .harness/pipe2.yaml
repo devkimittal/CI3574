@@ -1,0 +1,33 @@
+pipeline:
+  name: pipe2
+  identifier: pipe2
+  projectIdentifier: RaghavTest
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: pipe
+        identifier: pipe
+        description: ""
+        type: CI
+        spec:
+          cloneCodebase: false
+          infrastructure:
+            type: KubernetesDirect
+            spec:
+              connectorRef: cidelegate
+              namespace: harness-qa-delegate
+              automountServiceAccountToken: true
+              nodeSelector: {}
+              os: Linux
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: run
+                  identifier: run
+                  spec:
+                    connectorRef: docker
+                    image: alpine
+                    shell: Sh
+                    command: echo run
