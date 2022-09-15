@@ -1,0 +1,14 @@
+inputSet:
+  identifier: "input"
+  name: "input"
+  orgIdentifier: "default"
+  projectIdentifier: "RaghavTest"
+  pipeline:
+    identifier: "pipe2"
+    properties:
+      ci:
+        codebase:
+          build:
+            type: "branch"
+            spec:
+              branch: "<+trigger.branch>"
