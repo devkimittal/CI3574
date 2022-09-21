@@ -10,7 +10,7 @@ pipeline:
         identifier: pipe
         type: CI
         spec:
-          cloneCodebase: true
+          cloneCodebase: false
           infrastructure:
             type: KubernetesDirect
             spec:
@@ -30,8 +30,3 @@ pipeline:
                     image: alpine
                     shell: Sh
                     command: echo run
-  properties:
-    ci:
-      codebase:
-        connectorRef: sshdev
-        build: <+input>
