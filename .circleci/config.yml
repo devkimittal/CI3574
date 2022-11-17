@@ -16,7 +16,10 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "echo $secret1"
+          command: "echo $secret1 echo"
+      - run:
+          name: "Say hello"
+          command: "echo 'echo this is something'"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
