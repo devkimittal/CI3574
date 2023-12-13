@@ -1,0 +1,29 @@
+pipeline:
+  name: remote
+  identifier: remote
+  projectIdentifier: CITestDemoProsQQ6BmCDXS
+  orgIdentifier: CITestDemoOrgnpAUTg9bai
+  tags: {}
+  stages:
+    - stage:
+        name: remote
+        identifier: remote
+        description: ""
+        type: CI
+        spec:
+          cloneCodebase: false
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Cloud
+            spec: {}
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Run_1
+                  identifier: Run_1
+                  spec:
+                    shell: Sh
+                    command: ef
