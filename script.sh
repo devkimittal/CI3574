@@ -1,7 +1,7 @@
 #!/bin/bash
 # Check if Account ID and Delegate Token is provided as an argument
-if [ $# -ne 2 ]; then
-    echo "Usage: $0 <ACCOUNT_ID> <DELEGATE_TOKEN>"
+if [ $# -ne 3 ]; then
+    echo "Usage: $0 <ACCOUNT_ID> <DELEGATE_TOKEN> <DELEGATE_IMAGE_VERSION>"
     exit 1
 fi
 # Get the operating system type
@@ -17,6 +17,7 @@ fi
 ACCOUNT_ID=$1
 # Account ID from script argument
 DELEGATE_TOKEN=$2
+DELEGATE_IMAGE_VERSION=$3
 # Check the operating system type and run commands accordingly
 if [ "$ostype" = "Darwin" ]; then
     # Commands for macOS
@@ -32,7 +33,7 @@ if [ "$ostype" = "Darwin" ]; then
       -e LOG_STREAMING_SERVICE_URL=https://app.harness.io/gratis/log-service/ \
       -e DELEGATE_TAGS="macos-$archtype" \
       -e RUNNER_URL=http://host.docker.internal:3000 \
-      -e MANAGER_HOST_AND_PORT=https://app.harness.io/gratis harness/delegate:23.02.78306
+      -e MANAGER_HOST_AND_PORT=https://app.harness.io/gratis harness/delegate:$DELEGATE_IMAGE_VERSION
 
     # Wait for a while before continuing the script execution
     echo "Sleeping for 2 seconds"
@@ -62,11 +63,14 @@ elif [ "$ostype" = "Linux" ]; then
       -e DELEGATE_TOKEN=$DELEGATE_TOKEN \
       -e LOG_STREAMING_SERVICE_URL=https://app.harness.io/gratis/log-service/ \
       -e DELEGATE_TAGS="linux-$archtype" \
-      -e MANAGER_HOST_AND_PORT=https://app.harness.io/gratis harness/delegate:23.02.78306
+      -e MANAGER_HOST_AND_PORT=https://app.harness.io/gratis harness/delegate:$DELEGATE_IMAGE_VERSION
 
     # Wait for a while before continuing the script execution
     echo "Sleeping for 2 seconds"
     sleep 2
+
+    echo "Removing already existing binary"
+    rm -f harness-docker-runner-linux-$archtype
 
     # Download the harness-docker-runner for Linux
     wget -q https://github.com/harness/harness-docker-runner/releases/latest/download/harness-docker-runner-linux-$archtype 
