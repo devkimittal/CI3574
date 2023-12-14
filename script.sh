@@ -8,7 +8,8 @@ fi
 ostype=$(uname)
 # Get the machine architecture type
 archtype=$(uname -m)
-if [ "$archtype" == "x86_64" ]; then
+
+if [ "$archtype" = "x86_64" ]; then
     archtype="amd64"
 fi
 
@@ -17,7 +18,7 @@ ACCOUNT_ID=$1
 # Account ID from script argument
 DELEGATE_TOKEN=$2
 # Check the operating system type and run commands accordingly
-if [ "$ostype" == "Darwin" ]; then
+if [ "$ostype" = "Darwin" ]; then
     # Commands for macOS
     echo "Running commands for macOS"
 
@@ -49,7 +50,7 @@ if [ "$ostype" == "Darwin" ]; then
     echo "running the binary"
     sudo ./harness-docker-runner-darwin-$archtype server &
     
-elif [ "$ostype" == "Linux" ]; then
+elif [ "$ostype" = "Linux" ]; then
     echo "Running commands for Linux"
 
     # Run the Docker container with environment variables
@@ -75,4 +76,7 @@ elif [ "$ostype" == "Linux" ]; then
     
     # Start the harness-docker-runner server
     sudo ./harness-docker-runner-linux-$archtype server &
+else
+    echo "Unsupported operating system: $ostype"
+    exit 1
 fi
