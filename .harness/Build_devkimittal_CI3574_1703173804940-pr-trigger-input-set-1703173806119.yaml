@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_devkimittal_CI3574_1703173804940-pr-trigger-input-set
+  identifier: Build_devkimittal_CI3574_1703173804940prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_devkimittal_CI3574_1703173804940
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
