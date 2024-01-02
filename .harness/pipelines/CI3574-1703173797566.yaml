@@ -59,4 +59,4 @@ pipeline:
             spec: {}
         type: CI
         strategy:
-          parallelism: 5
+          parallelism: 1
