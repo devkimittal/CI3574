@@ -8,7 +8,7 @@ fi
 ostype=$(uname)
 # Get the machine architecture type
 archtype=$(uname -m)
-
+somechange
 if [ "$archtype" = "x86_64" ]; then
     archtype="amd64"
 fi
