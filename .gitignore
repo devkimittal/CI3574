@@ -6,6 +6,7 @@
 
 # BlueJ files
 *.ctxt
+blsh
 
 Made this change in gitignore
 
