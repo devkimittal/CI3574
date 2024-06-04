@@ -1,1 +1,1 @@
-echo $something
+echo $something/abc
