@@ -1,0 +1,1285 @@
+{
+  "count": 128,
+  "images": [
+    {
+      "imageName": "sas-admin-content-loader",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-admin-content-loader",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-analytics-events",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-analytics-events",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-analytics-execution",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-analytics-execution",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-analytics-gateway",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-analytics-gateway",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-analytics-resources",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-analytics-resources",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-annotations",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-annotations",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-app-registry",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-app-registry",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-arke",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-arke",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-audit",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-audit",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-authorization",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-authorization",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-backup-agent",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-backup-agent",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-backup-job",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-backup-job",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-batch",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-batch",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-batch-cmd",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-batch-cmd",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-cas-control",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-cas-control",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-cas-operator",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-cas-operator",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-cas-server",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-cas-server",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-catalog-services",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-catalog-services",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-certframe",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-certframe",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-code-debugger",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-code-debugger",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-code-debugger-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-code-debugger-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-collaboration",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-collaboration",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-commonfiles",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-commonfiles",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-compute",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-compute",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-config-init",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-config-init",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-configuration",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-configuration",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-connect",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-connect",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-connect-spawner",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-connect-spawner",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-consul-server",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-consul-server",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-content",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-content",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-credentials",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-credentials",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-crunchy5-postgres-operator",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-crunchy5-postgres-operator",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-agent-server-colocated",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-agent-server-colocated",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-agent-services",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-agent-services",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-explorer-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-explorer-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-flows",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-flows",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-mining-models",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-mining-models",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-mining-project-resources",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-mining-project-resources",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-mining-results",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-mining-results",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-mining-risk-models",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-mining-risk-models",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-plans",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-plans",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-quality-services",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-quality-services",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-server-operator",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-server-operator",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-sources",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-sources",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-data-studio-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-data-studio-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-db-migrator",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-db-migrator",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-decisions-framework",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-decisions-framework",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-decisions-runtime-builder",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-decisions-runtime-builder",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-deployment-data",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-deployment-data",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-device-management",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-device-management",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-discovery-services",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-discovery-services",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-drive-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-drive-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-environment-manager-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-environment-manager-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-feature-flags",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-feature-flags",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-files",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-files",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-file-store",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-file-store",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-flow-orchestrator",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-flow-orchestrator",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-formats",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-formats",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-geography",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-geography",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-graph-builder-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-graph-builder-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-graph-templates",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-graph-templates",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-identities",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-identities",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-import-9",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-import-9",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-import-data-loader",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-import-data-loader",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-information-catalog-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-information-catalog-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-insights",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-insights",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-inventory-collector",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-inventory-collector",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-job-execution",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-job-execution",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-job-execution-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-job-execution-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-job-flow-scheduling",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-job-flow-scheduling",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-landing-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-landing-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-launcher",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-launcher",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-lineage-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-lineage-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-localization",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-localization",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-logon-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-logon-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-microanalytic-score",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-microanalytic-score",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-migration-manager",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-migration-manager",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-ml-pipeline-automation",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-ml-pipeline-automation",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-model-management",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-model-management",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-model-manager-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-model-manager-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-model-publish",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-model-publish",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-model-repository",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-model-repository",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-model-studio-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-model-studio-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-natural-language-generation",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-natural-language-generation",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-office-addin-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-office-addin-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-opendistro",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-opendistro",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-opendistro-operator",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-opendistro-operator",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-orchestration",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-orchestration",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-portable-formats",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-portable-formats",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-preferences",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-preferences",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-prepull",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-prepull",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-process-exporter",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-process-exporter",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-programming-environment",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-programming-environment",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-pyconfig",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-pyconfig",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-python-action-init",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-python-action-init",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-quality-knowledge-base",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-quality-knowledge-base",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-rabbitmq-server",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-rabbitmq-server",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-readiness",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-readiness",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-redis-operator",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-redis-operator",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-redis-server",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-redis-server",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-report-alerts",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-report-alerts",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-report-distribution",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-report-distribution",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-report-execution",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-report-execution",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-report-operations-core",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-report-operations-core",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-report-renderers",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-report-renderers",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-report-services-group",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-report-services-group",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-restore-job",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-restore-job",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-scheduler",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-scheduler",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-score-definitions",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-score-definitions",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-score-execution",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-score-execution",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-search",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-search",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-start-sequencer",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-start-sequencer",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-studio",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-studio",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-studio-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-studio-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-studio-development",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-studio-development",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-studio-steps",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-studio-steps",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-text-analytics-data",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-text-analytics-data",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-text-analytics-taxonomies",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-text-analytics-taxonomies",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-theme-designer-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-theme-designer-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-transfer",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-transfer",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-transformations",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-transformations",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-visual-analytics",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-visual-analytics",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-visual-analytics-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-visual-analytics-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-web-assets",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-web-assets",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-workflow-engine",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-workflow-engine",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-workflow-history",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-workflow-history",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-workflow-manager-app",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-workflow-manager-app",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    },
+    {
+      "imageName": "sas-workload-orchestrator",
+      "imageTag": "git-c85b1a4501ece58ee737997d86abd2591d20657d",
+      "dockerfilePath": "Dockerfile.sas-workload-orchestrator",
+      "dockerContextPath": "",
+      "noPushAppImage": "false",
+      "noPushAppImage": "false",
+      "imageSha": "",
+      "generateSbom": "true"
+    }
+  ]
+}
