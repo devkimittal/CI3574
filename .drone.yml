@@ -1,0 +1,13 @@
+kind: pipeline
+type: docker
+name: default
+
+platform:
+  os: linux
+  arch: arm64  # arm64 for Apple Silicon, amd64 for Intel
+
+steps:
+  - name: test
+    image: alpine
+    commands:
+      - echo "Hello from Drone!"
